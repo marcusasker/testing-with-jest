@@ -12,6 +12,7 @@ exports.pop = function () {
     return stack.pop();
 }
 
-exports.push = function (x) {
-    stack.push(x);
-};
+// Returnerar det översta elementet i stacken
+exports.peek = function () {
+    return _.last(stack);
+}
