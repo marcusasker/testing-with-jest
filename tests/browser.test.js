@@ -24,7 +24,7 @@ test('The stack should be empty in the beginning', async () => {
 });
 
 test('The button should say the right word', async () => {
-  let stack = await driver.findElement(By.id('peek')).getText();
+  let stack = await driver.findElement(By.id('pop')).getText();
   expect(stack).toEqual("Poppa stacken!");
 })
 

@@ -23,5 +23,5 @@ test('peek on stack with three items pops the list item', () => {
   stack.push(2);
   stack.push(3);
   stack.pop();
-  expect(stack.peek()).toBe(3);
+  expect(stack.peek()).toBe(2);
 });
